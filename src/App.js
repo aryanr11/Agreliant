@@ -14,6 +14,7 @@ import Products from './Products';
 import Aboutus from './Aboutus';
 import Careers from './Careers';
 import ScrollToTop from './ScrollToTop';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
   return (
