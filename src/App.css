@@ -369,3 +369,75 @@ h3 {
 .seed_dealers h2, .seed_dealers p{
   color: white;
 }
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 1024px) {
+  .logo_css {
+      max-width: 160px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .logo_css {
+      max-width: 192px;
+  }
+  .nav_menu li a {
+      line-height: 45px;
+  }
+  .sticky_active {
+      padding: 0px 0px;
+      background-color: #282828;
+      transition: all 0.3s ease;
+  }
+  .border_agreliant {
+      border: none !important;
+  }
+
+  /* font size */
+  h2 {
+      font-size: 48px;
+  }
+  .home h1 {
+      font-size: 72px;
+      line-height: 84px;
+  }
+  .home h2 {
+      font-size: 48px;
+  }
+  .products_info h2 {
+      font-size: 72px;
+  }
+  .info h3 {
+      font-size:21px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .logo_css {
+      max-width: 128px;
+  }
+  .home {
+      padding: 50px 0px;
+  }
+
+  /* font size */
+  h2 {
+      font-size: 36px;
+  }
+  .home h1 {
+      font-size: 54px;
+      line-height: 67px;
+  }
+  .home h2 {
+      font-size: 36px;
+      
+  }
+  .products_info h2 {
+      font-size: 54px;
+  }
+  .info h3 {
+      font-size:20px;
+  }
+}
